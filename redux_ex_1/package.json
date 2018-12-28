@@ -6,13 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js",
-    "build-css": "node-sass --include-path scss src/scss/App.scss src/css/styles.css",
-    "json-server": "json-server --watch src/json/prodcat.json"
+    "build-css": "node-sass --include-path scss src/scss/App.scss src/css/styles.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.14.2",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
