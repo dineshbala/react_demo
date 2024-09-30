@@ -1,5 +1,0 @@
-
-npm install --save redux-thunk
-npm i redux react-redux redux-thunk
-npm run dev
-npm run build-css
